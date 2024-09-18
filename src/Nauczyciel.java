@@ -1,4 +1,4 @@
-public sealed class Nauczyciel extends Osoba permits Wychowawca{
+public sealed class Nauczyciel extends Osoba implements Dyzurny permits Wychowawca{
     private String przedmitot;
     //seald ograczione dziedziceznie
     //do czego moze
@@ -13,5 +13,10 @@ public sealed class Nauczyciel extends Osoba permits Wychowawca{
                 " Imie: "+getImie()+" Nazwisko: "+getNazwisko()+ " Wiek: "+getWiek()+
                 "przedmitot:" + przedmitot  +
                 '}';
+    }
+
+    @Override
+    public void wykonajDyzur() {
+        System.out.println("Spacedr po korytarzu");
     }
 }

@@ -1,4 +1,4 @@
-public class Uczen extends Osoba
+public class Uczen extends Osoba implements Dyzurny
 
 //poniewaz uczen am te same wlasnosci co osoba to bedzie klasa potamna klasy osoba
 //klasa Osoba bedzie klasa bazowa
@@ -19,8 +19,6 @@ public class Uczen extends Osoba
         numerEwidencyjny = liczobiektow;
     }
 
-    Osoba test = new Osoba();
-
 
     @Override
     public String toString() {
@@ -28,5 +26,10 @@ public class Uczen extends Osoba
                 "Imie: "+getImie()+" Nazwisko: "+getNazwisko()+" Wiek: "+getWiek()+
                 " numerEwidencyjny: " + numerEwidencyjny +
                 '}';
+    }
+
+    @Override
+    public void wykonajDyzur() {
+        System.out.println("Uczen zmazuje tablice+");
     }
 }
