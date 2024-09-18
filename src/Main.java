@@ -16,5 +16,14 @@ public class Main {
         System.out.println(osobax.getWiek()+osobax.getImie()+osobax.getNazwisko());
 
         System.out.println(osobaJas);
+        Uczen uczen = new Uczen("Nowak","Nowaczkiewicz");
+        System.out.println(Uczen.liczobiektow);
+        Uczen uczen1 = new Uczen("Prak","Prorok");
+        System.out.println(Uczen.liczobiektow);
+        Uczen uczen2 = new Uczen("Mrak","Mowak");
+        System.out.println(Uczen.liczobiektow);
+        Uczen uczen3 = new Uczen("Orak","Rozaw");
+        System.out.println(Uczen.liczobiektow);
+        System.out.println(uczen3);
     }
 }
