@@ -25,5 +25,8 @@ public class Main {
         Uczen uczen3 = new Uczen("Orak","Rozaw");
         System.out.println(Uczen.liczobiektow);
         System.out.println(uczen3);
+
+        Nauczyciel nauczycielSlowik =new Nauczyciel("Marek","Sojekj",25,"Matma");
+        System.out.println(nauczycielSlowik);
     }
 }

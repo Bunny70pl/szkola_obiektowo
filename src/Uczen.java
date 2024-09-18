@@ -26,7 +26,7 @@ public class Uczen extends Osoba
     public String toString() {
         return "Uczen{" +
                 "Imie: "+getImie()+" Nazwisko: "+getNazwisko()+" Wiek: "+getWiek()+
-                "numerEwidencyjny=" + numerEwidencyjny +
+                " numerEwidencyjny: " + numerEwidencyjny +
                 '}';
     }
 }
