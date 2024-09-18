@@ -13,7 +13,18 @@ public class Osoba {
         this.nazwisko = nazwisko;
         this.wiek = wiek;
     }
+    //przecizaznie to 3 lub wiecej roznych ale tych samych konstruktorow ktore roznia sie tylko wpisywanymi paramterami
+    public Osoba(String imie, String nazwisko) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        wiek = 7;//jezeli nie ma loklanie zmiennej wiek to jest to pole klasy
+    }
 
+    public Osoba() {
+        imie = "";
+        nazwisko = "";
+        wiek = 0;
+    }
 
     //Metody dosptepowe settery i gettery
     public String getImie() {
