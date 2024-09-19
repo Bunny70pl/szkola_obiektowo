@@ -15,5 +15,11 @@ public class Main {
         System.out.println(nauczycielSlowik);
         nauczycielSlowik.wykonajDyzur();
         uczen.wykonajDyzur();
+
+        Klasa klasa1a = new Klasa("1a", nauczycielSlowik);
+        klasa1a.dodajUczniaDoKlasy(uczen);
+        klasa1a.dodajUczniaDoKlasy(uczen2);
+        klasa1a.dodajUczniaDoKlasy(uczen3);
+        System.out.println(klasa1a);
     }
 }
