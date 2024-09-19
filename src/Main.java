@@ -21,5 +21,13 @@ public class Main {
         klasa1a.dodajUczniaDoKlasy(uczen2);
         klasa1a.dodajUczniaDoKlasy(uczen3);
         System.out.println(klasa1a);
+
+        Szkola zs10 = Szkola.getSzkola();
+        zs10.dodajUczniaDoSzkoly("Marek","Ratatuj");
+        zs10.dodajKlaseDoSzkoly(klasa1a);
+        zs10.dodajUczniaDoKlasy(uczen,klasa1a);
+        System.out.println(klasa1a);
+        zs10.dodajUczniaDoKlasy(uczen,klasa1a);
+        System.out.println(zs10);
     }
 }
