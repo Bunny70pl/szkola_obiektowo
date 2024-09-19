@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ *
+ */
 public class Klasa {
     private String nazwaKlasy;
     private ArrayList<Uczen> uczniowie;
